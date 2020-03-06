@@ -125,9 +125,7 @@ async def amireallyalive(alive):
     await alive.edit("`My Detail Ubot `\n"
                      f"> `Telethon : v{version.__version__} `\n"
                      f"> `Python : v{python_version()} `\n"
-	                 "===================== \n"
-                     f"`User : `{DEFAULTUSER} \n"
-		             "===================== \n")
+                     f"`User : `{DEFAULTUSER} \n")
 
 
 @register(outgoing=True, pattern="^.aliveu")
